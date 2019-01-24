@@ -32,6 +32,6 @@ function removeLastDriver(){
 }
 
 function removeFirstDriver() { 
-  let jnew_array = drivers.slice(1, drivers.length-1) ; 
+  let jnew_array = drivers.slice(1) ; 
   return jnew_array
 } 
